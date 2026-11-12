@@ -1,7 +1,4 @@
-/* =========================================
-   1. GLOBAL STYLES
-========================================= */
-
+   /* 1. GLOBAL STYLES */
 :root {
     --bg: #0b1220;
     --text: #e2e8f0;
@@ -43,7 +40,6 @@ body[data-theme="light"] {
     --shadow: rgba(15, 23, 42, 0.06);
     --glow: rgba(37, 99, 235, 0.06);
 }
-
 
 * {
     margin: 0;
@@ -90,10 +86,7 @@ a {
     transition: 0.3s ease;
 }
 
-
-/* =========================================
-   2. HEADER
-========================================= */
+   /* 2. HEADER */
 
 header {
     position: fixed;
@@ -126,10 +119,7 @@ header h1 {
     letter-spacing: 2px;
 }
 
-
-/* =========================================
-   3. HEADER ACTIONS
-========================================= */
+   /* 3. HEADER ACTIONS */
 
 .header-actions {
     display: flex;
@@ -137,10 +127,7 @@ header h1 {
     gap: 14px;
 }
 
-
-/* =========================================
-   4. THEME BUTTON
-========================================= */
+   /* 4. THEME BUTTON */
 
 .theme-toggle {
     padding: 9px 16px;
@@ -166,10 +153,7 @@ header h1 {
     transform: translateY(-2px);
 }
 
-
-/* =========================================
-   5. HAMBURGER MENU
-========================================= */
+   /* 5. HAMBURGER MENU */
 
 .menu-toggle {
     width: 43px;
@@ -218,10 +202,7 @@ header h1 {
     transform: translateY(-8px) rotate(-45deg);
 }
 
-
-/* =========================================
-   6. DROPDOWN NAVIGATION
-========================================= */
+   /* 6. DROPDOWN NAVIGATION */
 
 nav {
     position: absolute;
@@ -276,10 +257,7 @@ nav a:hover {
     padding-left: 20px;
 }
 
-
-/* =========================================
-   7. SECTIONS
-========================================= */
+   /* 7. SECTIONS */
 
 section {
     width: 100%;
@@ -293,10 +271,7 @@ section:not(.hero) {
     scroll-margin-top: 85px;
 }
 
-
-/* =========================================
-   8. HERO SECTION
-========================================= */
+   /* 8. HERO SECTION */
 
 .hero {
     min-height: auto;
@@ -336,9 +311,7 @@ section:not(.hero) {
     text-decoration: none;
 }
 
-/* =========================================
-   9. BUTTONS
-========================================= */
+   /* 9. BUTTONS */
 
 .btn {
     display: inline-block;
@@ -366,9 +339,7 @@ section:not(.hero) {
     box-shadow: 0 5px 18px var(--glow);
 }
 
-/* =========================================
-   10. GLASS CARDS
-========================================= */
+   /* 10. GLASS CARDS */
 
 .card {
     position: relative;
@@ -437,9 +408,7 @@ section:not(.hero) {
     z-index: 1;
 }
 
-/* =========================================
-   11. EXPERIENCE TIMELINE
-========================================= */
+   /* 11. EXPERIENCE TIMELINE */
 
 .timeline {
     border-left: 2px solid var(--accent);
@@ -482,9 +451,7 @@ li::marker {
     color: var(--accent);
 }
 
-/* =========================================
-   12. SKILLS TAGS
-========================================= */
+   /* 12. SKILLS TAGS */
 
 .skills {
     display: flex;
@@ -519,9 +486,7 @@ li::marker {
     transform: translateY(-2px);
 }
 
-/* =========================================
-   13. SKILLS CATEGORY GRID
-========================================= */
+   /* 13. SKILLS CATEGORY GRID */
 
 .skills-container {
     display: grid;
@@ -540,9 +505,7 @@ li::marker {
     margin-bottom: 12px;
 }
 
-/* =========================================
-   14. EDUCATION
-========================================= */
+   /* 14. EDUCATION */
 
 .edu-item {
     margin-bottom: 20px;
@@ -561,9 +524,7 @@ li::marker {
     font-size: 18px;
 }
 
-/* =========================================
-   15. PROJECTS
-========================================= */
+   /* 15. PROJECTS */
 
 .projects {
     display: grid;
@@ -619,9 +580,7 @@ li::marker {
     transform: translateX(4px);
 }
 
-/* =========================================
-   16. CERTIFICATIONS
-========================================= */
+   /* 16. CERTIFICATIONS */
 
 #certifications .card ul {
     margin: 0;
@@ -635,9 +594,7 @@ li::marker {
     margin-bottom: 0;
 }
 
-/* =========================================
-   17. CONTACT SECTION
-========================================= */
+   /* 17. CONTACT SECTION */
 
 .contact input,
 .contact textarea {
@@ -691,10 +648,7 @@ li::marker {
     margin-left: 0;
 }
 
-
-/* =========================================
-   18. FADE-IN ANIMATION
-========================================= */
+   /* 18. FADE-IN ANIMATION  */
 
 .fade {
     opacity: 0;
@@ -709,9 +663,7 @@ li::marker {
     transform: translateY(0);
 }
 
-/* =========================================
-   19. FOOTER
-========================================= */
+   /* 19. FOOTER */
 
 footer {
     text-align: center;
@@ -730,9 +682,7 @@ footer p {
     color: var(--muted);
 }
 
-/* =========================================
-   20. TABLET RESPONSIVENESS
-========================================= */
+   /* 20. TABLET RESPONSIVENESS */
 
 @media (max-width: 900px) {
 
@@ -754,10 +704,7 @@ footer p {
 
 }
 
-
-/* =========================================
-   21. MOBILE RESPONSIVENESS
-========================================= */
+   /* 21. MOBILE RESPONSIVENESS */
 
 @media (max-width: 768px) {
 
@@ -820,9 +767,7 @@ footer p {
 
 }
 
-/* =========================================
-   22. SMALL MOBILE
-========================================= */
+   /* 22. SMALL MOBILE */
 
 @media (max-width: 480px) {
 
@@ -889,9 +834,7 @@ footer p {
 
 }
 
-/* =========================================
-   23. ACCESSIBILITY
-========================================= */
+   /* 23. ACCESSIBILITY */
 
 button:focus-visible,
 a:focus-visible,
