@@ -1,0 +1,452 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abinaya S | Portfolio</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+<header>
+    <h1>ABINAYA</h1>
+
+    <div class="header-actions">
+
+        <!-- THEME BUTTON -->
+        <button id="themeToggle" class="theme-toggle" type="button">
+            ☀ Light
+        </button>
+
+        <!-- HAMBURGER MENU -->
+        <button id="menuToggle"
+                class="menu-toggle"
+                type="button"
+                aria-label="Open navigation menu"
+                aria-expanded="false">
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+        </button>
+
+    </div>
+
+    <!-- DROPDOWN NAVIGATION -->
+    <nav id="navMenu">
+
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#contact">Contact</a>
+
+    </nav>
+
+</header>
+    <!-- HERO -->
+    <section class="hero">
+        <h2>Hi, I'm<br><span>Abinaya S</span></h2>
+
+        <p>
+            <strong>IT Graduate | Machine Learning & Software Development</strong>
+        </p>
+
+        <p>
+            IT graduate with hands-on experience in C#, .NET, ASP.NET Core,
+            Angular, SQL Server, and machine learning.
+        </p>
+
+        <button class="btn" id="contactBtn">Contact Me</button>
+
+        <a href="./Abinaya Resume.pdf" download class="resume-link">
+            <button class="btn" type="button">Download Resume</button>
+        </a>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="fade">
+        <h2>About Me</h2>
+
+        <div class="card">
+            <p>
+                I am an Information Technology graduate from Sri Ramakrishna
+                Institute of Technology with a CGPA of 8.7.
+            </p>
+
+            <p>
+                I have hands-on software development experience using C#,
+                .NET, ASP.NET Core, Angular, Windows Forms, and SQL Server.
+
+            </p>
+
+            <p>
+                My interests also include machine learning, deep learning,
+                computer vision, and developing applications that solve
+                real-world problems.
+            </p>
+        </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="fade">
+        <h2>Experience</h2>
+
+        <div class="timeline">
+
+            <div class="card">
+                <h3>Software Development Intern</h3>
+                <p><strong>Craftsman Automation Pvt Ltd</strong></p>
+                <span class="year">August 2026 – November 2026</span>
+
+                <p>
+                    Implemented C# and .NET backend logic for Automated
+                    Storage and Retrieval System (ASRS) operations.
+                </p>
+
+                <ul>
+                    <li>Implemented store, pick, shuffle, relocation, and compress operations.</li>
+                    <li>Built a C# Windows Forms front end to operate and test processes.</li>
+                    <li>Working on an Angular dashboard with ASP.NET Core REST APIs.</li>
+                    <li>Worked with SQL Server for ASRS database development.</li>
+                </ul>
+
+                <p><strong>Technologies:</strong></p>
+
+                <div class="skills">
+                    <span>C#</span>
+                    <span>.NET</span>
+                    <span>JavaScript</span>
+                    <span>Angular</span>
+                    <span>ASP.NET Core</span>
+                    <span>REST APIs</span>
+                    <span>SQL Server</span>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3>Front-End Development Intern</h3>
+                <p><strong>Tenneco Automotive India Pvt Ltd</strong></p>
+                <span class="year">July 2024</span>
+
+                <p>
+                    Worked with HTML and CSS to design and structure
+                    user-friendly, responsive web pages.
+                </p>
+
+                <ul>
+                    <li>Created responsive page layouts.</li>
+                    <li>Applied styling for different screen sizes and devices.</li>
+                    <li>Developed practical front-end development skills.</li>
+                </ul>
+
+                <div class="skills">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>Responsive Design</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="fade">
+        <h2>Education</h2>
+
+        <div class="card">
+
+            <div class="edu-item">
+                <h3>B.Tech – Information Technology</h3>
+                <p><strong>Sri Ramakrishna Institute of Technology</strong></p>
+                <p>CGPA: 8.7</p>
+                <span class="year">2022 – 2026</span>
+            </div>
+
+            <div class="edu-item">
+                <h3>Higher Secondary Certificate (HSC)</h3>
+                <p><strong>Government Higher Secondary School</strong></p>
+                <p>Percentage: 85%</p>
+                <span class="year">2021 – 2022</span>
+            </div>
+
+            <div class="edu-item">
+                <h3>Secondary School Leaving Certificate (SSLC)</h3>
+                <p><strong>Government Higher Secondary School</strong></p>
+                <p>Percentage: 88.4%</p>
+                <span class="year">2019 – 2020</span>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SKILLS: GLASS SKILL CARDS -->
+    <section id="skills" class="fade">
+        <h2>Technical Skills</h2>
+
+        <div class="skills-container">
+
+            <div class="card skill-category">
+                <h3>Programming Languages</h3>
+                <div class="skills">
+                    <span>C</span>
+                    <span>Java</span>
+                    <span>C#</span>
+                    <span>Python</span>
+                    <span>SQL</span>
+                </div>
+            </div>
+
+            <div class="card skill-category">
+                <h3>Backend & Frameworks</h3>
+                <div class="skills">
+                    <span>.NET</span>
+                    <span>ASP.NET Core</span>
+                    <span>REST APIs</span>
+                    <span>Windows Forms</span>
+                </div>
+            </div>
+
+            <div class="card skill-category">
+                <h3>Machine Learning & Deep Learning</h3>
+                <div class="skills">
+                    <span>TensorFlow</span>
+                    <span>Keras</span>
+                    <span>PyTorch</span>
+                    <span>XGBoost</span>
+                    <span>VGG16 Transfer Learning</span>
+                </div>
+            </div>
+
+            <div class="card skill-category">
+                <h3>Computer Vision</h3>
+                <div class="skills">
+                    <span>OpenCV</span>
+                    <span>Image Classification</span>
+                    <span>Image Preprocessing</span>
+                    <span>Image Augmentation</span>
+                    <span>GLCM Texture Features</span>
+                </div>
+            </div>
+
+            <div class="card skill-category">
+                <h3>Web Technologies</h3>
+                <div class="skills">
+                    <span>Angular</span>
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+            </div>
+
+            <div class="card skill-category">
+                <h3>Databases</h3>
+                <div class="skills">
+                    <span>MySQL</span>
+                    <span>SQL Server</span>
+                    <span>SSMS</span>
+                </div>
+            </div>
+
+            <div class="card skill-category">
+                <h3>Tools & Practices</h3>
+                <div class="skills">
+                    <span>Git</span>
+                    <span>VS Code</span>
+                    <span>Swagger</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- PROJECTS: ONLY TWO -->
+    <section id="projects" class="fade">
+        <h2>Projects</h2>
+
+        <div class="projects">
+
+            <!-- THYROID PROJECT -->
+            <a
+                href="https://github.com/Abinaya-1508/thyroid-cancer-classification"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="project-link"
+            >
+                <div class="card project-card">
+                    <h3>Thyroid Carcinoma Diagnosis & Clinical Decision Support System</h3>
+
+                    <p>
+                        An end-to-end machine learning and computer vision
+                        project for thyroid histopathology image classification
+                        and clinical risk scoring.
+                    </p>
+
+                    <p>
+                        Used VGG16 transfer learning with TensorFlow/Keras
+                        to classify Follicular (FTC) and Papillary (PTC)
+                        thyroid carcinoma images.
+                    </p>
+
+                    <p>
+                        Combined GLCM texture features and clinical parameters
+                        with XGBoost for stage prediction, risk breakdown,
+                        and clinical decision-support features.
+                    </p>
+
+                    <div class="skills">
+                        <span>Python</span>
+                        <span>TensorFlow</span>
+                        <span>Keras</span>
+                        <span>OpenCV</span>
+                        <span>VGG16</span>
+                        <span>XGBoost</span>
+                    </div>
+
+                    <p class="project-cta">View on GitHub ↗</p>
+                </div>
+            </a>
+
+            <!-- E-LEARNING PROJECT -->
+            <a
+                href="https://github.com/Abinaya-1508/E-learning-system"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="project-link"
+            >
+                <div class="card project-card">
+                    <h3>E-Learning System (E-Learn)</h3>
+
+                    <p>
+                        A full-stack web application designed to support
+                        online learning and course management.
+                    </p>
+
+                    <p>
+                        Includes tutor and student registration, profile
+                        management, course uploads, video playlists,
+                        and course filtering.
+                    </p>
+
+                    <p>
+                        Also supports likes, views, comments, saved playlists,
+                        testimonials, and a contact section.
+                    </p>
+
+                    <div class="skills">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>AJAX</span>
+                        <span>jQuery</span>
+                        <span>PHP</span>
+                        <span>MySQL</span>
+                    </div>
+
+                    <p class="project-cta">View on GitHub ↗</p>
+                </div>
+            </a>
+
+        </div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section id="certifications" class="fade">
+        <h2>Certifications & Workshops</h2>
+
+        <div class="card">
+            <ul>
+                <li>Business English Certificate (BEC) Preliminary — Score: 145</li>
+                <li>Enhancing Soft Skills and Personality — NPTEL Certified, Score: 75%</li>
+                <li>Web3 Immersion Workshop — National Level Techno Management Fest, Sri Krishna College of Technology</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="fade">
+        <h2>Contact Me</h2>
+
+        <div class="card contact">
+            <p>
+                If you would like to collaborate, discuss opportunities,
+                or have any queries, feel free to reach out.
+            </p>
+
+            <form
+                action="https://formspree.io/f/xyklanwd"
+                method="POST"
+                id="contactForm"
+            >
+                <input
+                    type="text"
+                    name="name"
+                    placeholder="Your Name"
+                    required
+                >
+
+                <input
+                    type="email"
+                    name="email"
+                    placeholder="Your Email"
+                    required
+                >
+
+                <textarea
+                    name="message"
+                    placeholder="Your Message"
+                    required
+                ></textarea>
+
+                <button class="btn" type="submit">Send Message</button>
+            </form>
+
+            <p>
+                <strong>Email:</strong>
+                <a href="mailto:sabinaya045@gmail.com">sabinaya045@gmail.com</a>
+            </p>
+
+            <p>
+                <strong>Phone:</strong>
+                <a href="tel:+916385298334">+91 6385298334</a>
+            </p>
+
+            <p><strong>Location:</strong> Coimbatore, Tamil Nadu, India</p>
+
+            <p>
+                <strong>LinkedIn:</strong>
+                <a
+                    href="https://www.linkedin.com/in/abinaya-sachithanantham-8a4033296"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    View LinkedIn Profile
+                </a>
+            </p>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2026 Abinaya S | Built with HTML, CSS, JavaScript & jQuery</p>
+    </footer>
+
+    <!-- jQuery library -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <!-- Your separate JavaScript files -->
+    <script src="jquery.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
